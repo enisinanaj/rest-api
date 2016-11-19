@@ -1,10 +1,10 @@
 package org.sagittarius90.api;
 
-import javax.ws.rs.Path;
+import javax.ws.rs.ApplicationPath;
 
 import org.glassfish.jersey.server.ResourceConfig;
 
-@Path("/api")
+@ApplicationPath("/api")
 public class ApplicationConfig extends ResourceConfig {
     
 	public ApplicationConfig() {

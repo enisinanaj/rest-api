@@ -1,5 +1,8 @@
 package org.sagittarius90.api.model;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class MessageModel {
 	
 	private Long id;
